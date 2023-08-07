@@ -1,4 +1,4 @@
-# LegalBert_AustralianLegalCitation
+# LegalBert_LegalPegasus
 
 ## Overview
 
