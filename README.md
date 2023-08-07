@@ -7,6 +7,7 @@ Welcome to the LegalBert_AustralianLegalCitation repository! This repository ser
 ## Setup and Requirements
 
 I run this notebooks mainly with GPU acceleration using a RTX3070 with 8GB vRAM on my laptop with Windows OS.
+
 Datasets:
 * [Legal Citation Text Classification](https://www.kaggle.com/datasets/shivamb/legal-citation-text-classification/code?resource=download)
 * [EUR-Lex-Sum](https://huggingface.co/datasets/dennlinger/eur-lex-sum)
