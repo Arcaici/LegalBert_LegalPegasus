@@ -30,7 +30,7 @@ I used LEGAL-BERT almost in all notebooks:
 * In the training_and_finetuning_legalbert notebook i offer a solution for training and fine-tuning LEGAL-BERT.Through this notebook, i used bert-base-uncased-eurlex transformer and trained over Legal Citation Text Classification and fine tuned using Optuna hyperparameter search.
 * In the LogisticHead_LegalBertFeatureExtraction_PegasusSummarizer notebook is similar to training_and_finetuning_legalbert notebook with the addition of a pegasus model that summarize longer samples before processing them with BERT.
   
-## legal-pegasus Notebook
+## legal-pegasus
 I used legal-pegasu in couple notebooks:
 * In pegasus_summarizer_splitpredict notebook i used legal-pegasus for predict summarizies from EUR-Lex-Sum samples, single summary is made by splitting single sample in chuncks and then concatenating all chunks summary on a single summary.
 * In the LogisticHead_LegalBertFeatureExtraction_PegasusSummarizer notebook is similar to pegasus_summarizer_splitpredict, but this time the summirize text in output goes as input of BERT tokenizer.
